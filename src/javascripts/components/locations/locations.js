@@ -71,29 +71,6 @@ const filterButtonEvent = (e) => {
   }
 };
 
-// const filter = (e) => {
-//   const btnClicked = e.target.id;
-//   let selectedBtn = '';
-//   switch (btnClicked) {
-//     case 'morning':
-//       selectedBtn = 'Morning';
-//       break;
-//     case 'afternoon':
-//       selectedBtn = 'Afternoon';
-//       break;
-//     case 'evening':
-//       selectedBtn = 'Evening';
-//       break;
-//     case 'dark':
-//       selectedBtn = 'After Dark';
-//       break;
-//     default:
-//       selectedBtn = 'all';
-//       break;
-//   }
-//   domStringBuilder(selectedBtn);
-// };
-
 const filterByTextEvent = (e) => {
   const searchText = e.target.value;
   const searchLocations = locations.filter((x) => {
