@@ -5,6 +5,14 @@ A website to keep track of movies and their shooting locations
 
 
 ## Screenshots
+Here is page load:
+![Page Load](./assets/screenshots/page_load.png)
+
+Here is locations sorted by shoottime:
+![Button Filter](./assets/screenshots/location_button_filter.png)
+
+Here is the modal that pops up when you click the movie:
+![Movie Modal](./assets/screenshots/single_movie_modal.png)
 
 ## Installation Instructions
 * Clone down this repo
