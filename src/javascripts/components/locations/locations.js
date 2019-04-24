@@ -102,4 +102,4 @@ const initializeLocations = () => {
 };
 
 
-export default { initializeLocations };
+export default { initializeLocations, domStringBuilder, shootTimeClass };
